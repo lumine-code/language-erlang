@@ -1,0 +1,20 @@
+{
+  "name": "Erlang",
+  "scopeName": "source.erlang",
+  "type": "modern-tree-sitter",
+  "parser": "tree-sitter-erlang",
+  "injectionRegex": "^(erlang)$",
+  "fileTypes": ["erl", "hrl", "escript"],
+  "comments": {
+    "start": "% "
+  },
+  "treeSitter": {
+    // Pin a tag or a full SHA, never a branch. Verify the ref is on the main
+    // line before trusting it — `gh api repos/OWNER/REPO/compare/<ref>...HEAD`
+    // reporting `diverged` or a nonzero `behind` means it is not.
+    "parserSource": "github:WhatsApp/tree-sitter-erlang#0.20",
+    "wasmBuildTool": "tree-sitter-cli#v0.26.11",
+    "grammar": "tree-sitter-erlang/tree-sitter-erlang.wasm",
+    "highlightsQuery": "tree-sitter-erlang/highlights.scm"
+  }
+}
