@@ -9,7 +9,7 @@ const path = require("path");
 
 describe("Erlang Tree-sitter grammar", () => {
   beforeEach(async () => {
-    await atom.packages.activatePackage("language-erlang");
+    await lumine.packages.activatePackage("language-erlang");
   });
 
   it("tokenizes the fixture", async () => {
