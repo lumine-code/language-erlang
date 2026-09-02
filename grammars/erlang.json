@@ -3,7 +3,7 @@
   "scopeName": "source.erlang",
   "type": "tree-sitter",
   "parser": "tree-sitter-erlang",
-  "injectionRegex": "^(erlang)$",
+  "injectionNames": ["erlang"],
   "fileTypes": ["erl", "hrl", "escript"],
   "comments": {
     "start": "% "
@@ -14,7 +14,7 @@
     // reporting `diverged` or a nonzero `behind` means it is not.
     "parserSource": "github:WhatsApp/tree-sitter-erlang#0.20",
     "wasmBuildTool": "tree-sitter-cli#v0.26.13",
-    "grammar": "tree-sitter-erlang/tree-sitter-erlang.wasm",
-    "highlightsQuery": "tree-sitter-erlang/highlights.scm"
+    "grammar": "erlang.wasm",
+    "highlightsQuery": "erlang-highlights.scm"
   }
 }
