@@ -36,7 +36,8 @@
  (#match? @comment.line.discard.erlang "^_"))
 
 (dotdotdot) @comment.line.discard.erlang
-(comment) @comment.line.erlang
+((comment) @comment.line.erlang
+  (#set! adjust.endBeforeFirstMatchOf "\\r?$"))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Functions
