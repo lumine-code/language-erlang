@@ -15,6 +15,7 @@
     "parserSource": "github:WhatsApp/tree-sitter-erlang#0.20",
     "wasmBuildTool": "tree-sitter-cli#v0.27.0",
     "grammar": "erlang.wasm",
-    "highlightsQuery": "erlang-highlights.scm"
+    "highlightsQuery": "erlang-highlights.scm",
+    "injectionsQuery": "erlang-injections.scm"
   }
 }
