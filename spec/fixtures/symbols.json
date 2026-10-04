@@ -1,0 +1,40 @@
+{
+  "source.erlang": {
+    "text": "-module(demo).\n-record(person, {name, age}).\n-define(LIMIT, 3).\n-type state() :: ready | busy.\n-callback handle(term()) -> ok.\ngreet(Name) -> Name.\nchoose(true) -> yes;\nchoose(false) -> no.\n% greet(Phantom) -> Phantom.\n",
+    "symbols": [
+      {
+        "name": "demo",
+        "tag": "module"
+      },
+      {
+        "name": "person",
+        "tag": "struct"
+      },
+      {
+        "name": "name",
+        "tag": "field"
+      },
+      {
+        "name": "LIMIT",
+        "tag": "macro"
+      },
+      {
+        "name": "state",
+        "tag": "type"
+      },
+      {
+        "name": "handle",
+        "tag": "method"
+      },
+      {
+        "name": "greet",
+        "tag": "function"
+      },
+      {
+        "name": "choose",
+        "tag": "function"
+      }
+    ],
+    "absent": ["Phantom"]
+  }
+}

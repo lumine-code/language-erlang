@@ -5,6 +5,7 @@ Erlang language support.
 ## Features
 
 - **Grammars**: provides Tree-sitter grammars, built from [tree-sitter-erlang](https://github.com/WhatsApp/tree-sitter-erlang).
+- **Symbols**: modules, function clauses, records, macros, types and callbacks.
 - **Syntax highlighting**: full tree-sitter grammar coverage for Erlang files.
 - **Folding**: folds blocks from the parse tree rather than by indentation.
 
