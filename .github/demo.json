@@ -1,0 +1,16 @@
+{
+  "title": "language-erlang",
+  "description": "Erlang syntax highlighting in the editor.",
+  "recordedOn": "2026-10-13",
+  "sourceRevision": "14fb6370888bb21a4d49ee390745e9d96102edd3",
+  "mode": "normal",
+  "fontSettings": "default",
+  "images": [
+    {
+      "file": "demo.png",
+      "label": "Erlang syntax highlighting at the default editor font size.",
+      "width": 1100,
+      "height": 360
+    }
+  ]
+}
