@@ -1,16 +1,61 @@
 {
   "title": "language-erlang",
-  "description": "Erlang syntax highlighting in the editor.",
-  "recordedOn": "2026-10-13",
-  "sourceRevision": "14fb6370888bb21a4d49ee390745e9d96102edd3",
+  "description": "Erlang syntax highlighting at the default editor font size.",
+  "recordedOn": "2026-10-14",
+  "sourceRevision": "e58cc8b076289b1dc26703ef6aa08fc885d65d88",
+  "themeSourceRevision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
   "mode": "normal",
   "fontSettings": "default",
+  "scenario": "demo.js",
+  "recipeHash": "de668df0f1630210503e8e3078edf1453b0a1aedc12e4c47eb0b5481c6eb06ef",
+  "environment": {
+    "platform": "win32",
+    "arch": "x64",
+    "electron": "44.7.0",
+    "chrome": "152.0.7977.130",
+    "devicePixelRatio": 1,
+    "locale": "en-GB",
+    "fontFamily": "Fira Code, Menlo, DejaVu Sans Mono, Consolas, monospace",
+    "fontSize": 14,
+    "themes": ["one-day-syntax", "one-day-ui"]
+  },
+  "viewport": { "width": 1100, "height": 360 },
+  "cornerRadius": 10,
+  "sources": {
+    "editor": {
+      "revision": "c4d7a05fe6960ae6fb041981d6cf13e9c0286b17",
+      "dirty": true,
+      "workingTreeHash": "af0ec098e764416df9522f3c6e555050b520e4700da382b2b983b2ff3742bd0a"
+    },
+    "package": {
+      "revision": "e58cc8b076289b1dc26703ef6aa08fc885d65d88",
+      "dirty": true,
+      "workingTreeHash": "622a18b98afef4b298f2db2da8553bbf1bb3a8ea8a630b275ecb002df140581c"
+    },
+    "language-erlang": {
+      "revision": "e58cc8b076289b1dc26703ef6aa08fc885d65d88",
+      "dirty": true,
+      "workingTreeHash": "622a18b98afef4b298f2db2da8553bbf1bb3a8ea8a630b275ecb002df140581c"
+    },
+    "one-theme": {
+      "revision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
+      "dirty": true,
+      "workingTreeHash": "25d6ed50595d6b10f7d53e41dbbe8f92dcb5c0e911871356f3e6138e5c76df57"
+    }
+  },
+  "fixtures": [
+    {
+      "file": "example.erl",
+      "sha256": "8ee99bfb86857f10c93ca61caf66b33af0d31acc0f4d41242b8cff0d957db6e1"
+    }
+  ],
   "images": [
     {
       "file": "demo.png",
       "label": "Erlang syntax highlighting at the default editor font size.",
       "width": 1100,
-      "height": 360
+      "height": 360,
+      "sha256": "bdf1aa5f51546cbab5f85559ab459feb1226bc994f0ec62b71deb78ff426f448"
     }
   ]
 }
