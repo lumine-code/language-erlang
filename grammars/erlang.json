@@ -13,7 +13,7 @@
     // line before trusting it — `gh api repos/OWNER/REPO/compare/<ref>...HEAD`
     // reporting `diverged` or a nonzero `behind` means it is not.
     "parserSource": "github:WhatsApp/tree-sitter-erlang#0386a11c835950f5e1ebfbcbf49863d8495de4e0",
-    "wasmBuildTool": "tree-sitter-cli#v0.27.0",
+    "wasmBuildTool": "tree-sitter-cli#v0.27.1",
     "grammar": "erlang.wasm",
     "tagsQuery": "erlang-tags.scm",
     "highlightsQuery": "erlang-highlights.scm",
