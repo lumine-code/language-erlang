@@ -32,10 +32,10 @@
 (atom) @constant.other.symbol.erlang
 
 ;;; Comments
-((var) @comment.line.discard.erlang
- (#match? @comment.line.discard.erlang "^_"))
+((var) @comment.other.discard.erlang
+ (#match? @comment.other.discard.erlang "^_"))
 
-(dotdotdot) @comment.line.discard.erlang
+(dotdotdot) @comment.other.discard.erlang
 ((comment) @comment.line.erlang
   (#set! adjust.endBeforeFirstMatchOf "\\r?$"))
 
