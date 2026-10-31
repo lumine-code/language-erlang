@@ -17,6 +17,7 @@
     "grammar": "erlang.wasm",
     "tagsQuery": "erlang-tags.scm",
     "highlightsQuery": "erlang-highlights.scm",
-    "injectionsQuery": "erlang-injections.scm"
+    "injectionsQuery": "erlang-injections.scm",
+    "indentsQuery": "erlang-indents.scm"
   }
 }
