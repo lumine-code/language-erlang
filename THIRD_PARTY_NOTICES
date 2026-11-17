@@ -5,6 +5,9 @@ Revision: 0386a11c835950f5e1ebfbcbf49863d8495de4e0
 Parser source: github:WhatsApp/tree-sitter-erlang#0386a11c835950f5e1ebfbcbf49863d8495de4e0
 Resolved commit: 0386a11c835950f5e1ebfbcbf49863d8495de4e0
 
+Parser source: github:WhatsApp/tree-sitter-erlang#3d561191c0236b7f1ed9ceecb2181a843a879d2e
+Resolved commit: 3d561191c0236b7f1ed9ceecb2181a843a879d2e
+
 Original file: LICENSE
 
 Apache License

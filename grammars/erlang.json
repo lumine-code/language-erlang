@@ -12,7 +12,7 @@
     // Pin a tag or a full SHA, never a branch. Verify the ref is on the main
     // line before trusting it — `gh api repos/OWNER/REPO/compare/<ref>...HEAD`
     // reporting `diverged` or a nonzero `behind` means it is not.
-    "parserSource": "github:WhatsApp/tree-sitter-erlang#0386a11c835950f5e1ebfbcbf49863d8495de4e0",
+    "parserSource": "github:WhatsApp/tree-sitter-erlang#3d561191c0236b7f1ed9ceecb2181a843a879d2e",
     "wasmBuildTool": "tree-sitter-cli#v0.27.2",
     "grammar": "erlang.wasm",
     "tagsQuery": "erlang-tags.scm",
